@@ -1,0 +1,193 @@
+/* колір тексту основний NAVY BLUE color: #2E2F42; */
+/* колір тексту дрібний SLATE color: #434455; */
+/* колір адрес SLATE color: #434455;  */
+/* колір адрес IRIS ховер color: #4D5AE5; */
+/* колір кнопки IRIS стандарт color: #4D5AE5; */
+/* колір кнопки IRIS ховер color: #4D5AE5; */
+/* колір кнопки клік Free Speech Blue color: #404BBF; */
+/* колір тексту footer color: color:  */
+/* колір WHITE color: #FFFFFF; */
+
+
+
+
+/* CSS-variables */
+
+:root {
+    --primary-white-color: #FFFFFF;
+    --primary-text-color: #2E2F42;
+    --tagline-text-color: #434455;
+    --accent-color: #4D5AE5;
+    --button-hower-color: #404BBF;
+    --footer-text-color: #F4F4FD;
+}
+button {
+     cursor: pointer;
+  }
+a {
+     text-decoration: none;
+   }
+.list {
+     list-style: none;
+   }
+.contacts {
+     font-style: normal;
+}
+body {
+    font-family:'Roboto',sans-serif;
+    color: var(--tagline-text-color);
+    background-color: var(--primary-white-color);
+   }
+.logo {
+     font-family: "Raleway", sans-serif;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 1.17; 
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+     color: var(--accent-color);
+}
+.logo-studio {
+     color: var(--primary-text-color);
+}
+.menu-link{
+     color: var(--primary-text-color);
+     font-weight: 500;
+     line-height: 1.5; 
+     letter-spacing: 0.02em;
+}
+.menu-link:hover,
+.menu-link:focus{
+    color: #404bbf;
+}
+.contacts-link {
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 1.5; 
+     letter-spacing: 0.02em;
+     color: var(--tagline-text-color);
+}
+.contacts-link:hover,
+.contacts-link:focus{
+    color:var(--button-hower-color);
+}
+
+.section-hero {
+    background-color: var(--primary-text-color);
+}
+
+.main-header {
+     font-size: 56px;
+     font-weight: 700;
+     line-height: 1.07; 
+     letter-spacing: 0.02em;
+     color: var(--primary-white-color);
+     text-align: center;
+}
+.main-button {
+     color: var(--primary-white-color);
+     background-color: var(--accent-color);
+     font-family: "Roboto", sans-serif;
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 1.5;
+     letter-spacing: 0.04em; 
+}
+.main-button:hover,
+.main-button:focus {
+     background-color: var(--button-hower-color);
+}
+.main-button:active {
+     background-color: var(--button-hower-color);
+}
+.features-title {
+     font-size: 20px;
+     font-weight: 500;
+     line-height: 1.2; 
+     letter-spacing: 0.02em;
+     color: var(--primary-text-color);
+}
+.features-tagline {
+     font-size: 16px;
+     line-height: 1.5; 
+     letter-spacing: 0.02em;
+}
+.section-team {
+     background-color: #F4F4FD;    
+}
+.team-item {
+     background-color: var(--primary-white-color);
+}
+.team-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11; 
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--primary-text-color);
+    }
+    
+.member-name { 
+     font-size: 20px;
+     font-weight: 500;
+     line-height: 1.2;
+     letter-spacing: 0.02em;
+     color: var(--primary-text-color);
+}
+.description {
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 1.5; 
+     letter-spacing: 0.02em;
+     color: var(--tagline-text-color);
+}
+.portfolio-title {
+     font-size: 36px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 1.11; 
+     letter-spacing: 0.02em;
+     text-align: center;
+     text-transform: capitalize;
+     color: var(--primary-text-color);
+}
+.portfolio-name {
+     font-size: 20px;
+     font-weight: 500;
+     line-height: 1.2; 
+     letter-spacing: 0.02em;
+     color: var(--primary-text-color);
+}
+.portfolio-description {
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 1.5; 
+     letter-spacing: 0.02em;
+     color: var(--tagline-text-color);
+}
+.footer {
+    background-color: var(--primary-text-color);
+}
+.footer-description {
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 1.5; 
+     letter-spacing: 0.02em;
+     color: #F4F4FD;
+}
+.logo-footer {
+     font-family: "Raleway", sans-serif;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 1.17; 
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+     color: var(--accent-color);
+}
+.logo-footer-studio {
+     color: #F4F4FD;
+}
