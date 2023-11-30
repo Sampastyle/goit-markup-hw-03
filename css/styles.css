@@ -2,7 +2,7 @@
 /* колір тексту дрібний SLATE color: #434455; */
 /* колір адрес SLATE color: #434455;  */
 /* колір адрес IRIS ховер color: #4D5AE5; */
-     /* колір кнопки IRIS стандарт color: #4D5AE5; */
+/* колір кнопки IRIS стандарт color: #4D5AE5; */
 /* колір кнопки IRIS ховер color: #4D5AE5; */
 /* колір кнопки клік Free Speech Blue color: #404BBF; */
 /* колір тексту footer color: color:  */
@@ -39,6 +39,7 @@ a {
    
 ul{
       margin:0;
+      padding-left:0;
    }
 .list {
      list-style: none;
@@ -64,8 +65,8 @@ body {
 }
 
                                             /*SECTION HEADER*/
-   
-  .logo {
+  
+.logo {
      font-family: "Raleway", sans-serif;
      font-size: 18px;
      font-style: normal;
@@ -80,6 +81,7 @@ body {
 
 .header-container {
      display: flex;
+     border-bottom:1px solid #E7E9FC;
 }
 .header-list {
      display: flex;
@@ -145,7 +147,7 @@ body {
 }
 
 .main-button {
-     .color: var(--primary-white-color);
+     color: var(--primary-white-color);
      background-color: var(--accent-color);
      font-family: "Roboto", sans-serif;
      font-size: 16px;
@@ -156,6 +158,11 @@ body {
      margin: auto;
      border-radius: 4px;
      background-color:#4D5AE5;
+     padding-top:16px;
+     padding-bottom:16px;
+     padding-left:32px;
+     padding-right:32px;
+     color: #FFF;
 }
 
 .main-button:hover,
@@ -262,6 +269,7 @@ body {
      line-height: 1.2; 
      letter-spacing: 0.02em;
      color: var(--primary-text-color);
+     padding-top: 32px;
 }
 .portfolio-description {
      font-size: 16px;
@@ -269,15 +277,18 @@ body {
      line-height: 1.5; 
      letter-spacing: 0.02em;
      color: var(--tagline-text-color);
+     padding-top:16px;
+     padding-bottom:32px;
 }
 .portfolio-wrap {
      display: flexbox;
      flex-wrap: wrap;
-     text-align: center;
+     text-align: start;
+     border-bottom:1px solid #E7E9FC;
 }
 .portfolio-list{
-     column-gap:48px;
-     row-gap:24px;
+     column-gap:24px;
+     row-gap:48px;
      display: flex;
      flex-wrap:wrap;
 }
@@ -287,7 +298,7 @@ body {
 .footer {
     background-color: var(--primary-text-color);
     padding-bottom:120px;
-    padding-top:120px   ;
+    padding-top:120px;
 
 }
 
@@ -319,5 +330,3 @@ body {
 .footer-wrap{
      padding-bottom:17.5px;
 }
-
-
