@@ -119,8 +119,6 @@ body {
      line-height: 1.5; 
      letter-spacing: 0.02em;
      color: var(--tagline-text-color);
-     padding-top: 24px;  
-     padding-bottom: 24px;
 }
 
 .contacts-link:hover,
@@ -190,7 +188,11 @@ body {
 .features-item {
      flex-basis: calc((100% - 72px) / 4);   
 }
-
+.visually-hidden{
+     visibility: hidden;
+     pointer-events: none;
+     position: absolute;
+}
 .features-title {
      font-size: 20px;
      font-weight: 500;
@@ -325,6 +327,7 @@ body {
      color: #F4F4FD;
      width: 264px;;
      height:72px;
+     max-width: 264px;
 }
 
 .logo-footer {
@@ -336,6 +339,7 @@ body {
      letter-spacing: 0.03em;
      text-transform: uppercase;
      color: var(--accent-color);
+     display: inline-block;
 }
 
 .logo-footer-studio {
@@ -343,5 +347,5 @@ body {
      margin-left:-5px;
 }
 .footer-wrap{
-     padding-bottom:17.5px;
+     margin-bottom: 16px;     
 }
