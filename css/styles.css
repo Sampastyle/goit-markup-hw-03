@@ -83,13 +83,13 @@ body {
 
 .header-container {
      display: flex;
-     border-bottom:1px solid #e7e9fc;
+     border-bottom: 1px solid #e7e9fc;
 }
 .header-list {
      display: flex;
      gap: 40px;
-     margin-top: 24px;
-     margin-bottom: 24px;     
+     padding-top: 24px;  
+     padding-bottom: 24px;   
 }
 .logo-studio {
      color: var(--primary-text-color);
@@ -186,6 +186,8 @@ body {
      gap:24px;  
 }
 
+.features-headline{ visibility: hidden;
+}
 .features-item {
      flex-basis: calc((100% - 72px) / 4);   
 }
