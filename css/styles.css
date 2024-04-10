@@ -80,16 +80,15 @@ body {
      padding-bottom: 15px;
      margin-right: 76px
 }
-
+.page-header{
+     border-bottom: 1px solid #e7e9fc;
+}
 .header-container {
      display: flex;
-     border-bottom: 1px solid #e7e9fc;
 }
 .header-list {
      display: flex;
      gap: 40px;
-     padding-top: 24px;  
-     padding-bottom: 24px;   
 }
 .logo-studio {
      color: var(--primary-text-color);
@@ -120,6 +119,8 @@ body {
      line-height: 1.5; 
      letter-spacing: 0.02em;
      color: var(--tagline-text-color);
+     padding-top: 24px;  
+     padding-bottom: 24px;
 }
 
 .contacts-link:hover,
@@ -186,8 +187,6 @@ body {
      gap:24px;  
 }
 
-.features-headline{ visibility: hidden;
-}
 .features-item {
      flex-basis: calc((100% - 72px) / 4);   
 }
