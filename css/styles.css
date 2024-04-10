@@ -48,7 +48,9 @@ ul{
      list-style: none;
    }
 
-.contacts {
+.contacts {     
+     padding-top: 24px;
+     padding-bottom: 24px;
      font-style: normal;
    }
 
@@ -88,8 +90,6 @@ body {
 }
 .header-list {
      display: flex;
-     padding-top: 24px;
-     padding-bottom: 24px;
      gap: 40px;
 }
 .logo-studio {
@@ -97,7 +97,7 @@ body {
      margin-left:-5px;
 }
 
-.site-nav {
+.site-nav {    
      display: flex;
      align-items:center;
      margin-right: auto;
