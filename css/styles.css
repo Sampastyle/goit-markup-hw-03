@@ -88,6 +88,8 @@ body {
 }
 .header-list {
      display: flex;
+     padding-top: 24px;
+     padding-bottom: 24px;
      gap: 40px;
 }
 .logo-studio {
@@ -188,10 +190,8 @@ body {
 .features-item {
      flex-basis: calc((100% - 72px) / 4);   
 }
-.visually-hidden{
+.visually-hidden {
      visibility: hidden;
-     pointer-events: none;
-     position: absolute;
 }
 .features-title {
      font-size: 20px;
