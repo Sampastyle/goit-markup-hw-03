@@ -344,6 +344,7 @@ body {
      width: 264px;;
      height:72px;
      max-width: 264px;
+     margin-top: 16px;
 }
 
 .logo-footer {
@@ -361,7 +362,4 @@ body {
 .logo-footer-studio {
      color: #F4F4FD;
      margin-left:-5px;
-}
-.footer-wrap{
-     margin-bottom: 16px;     
 }
