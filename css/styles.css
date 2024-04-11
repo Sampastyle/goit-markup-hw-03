@@ -305,9 +305,10 @@ body {
      letter-spacing: 0.02em;
      color: var(--tagline-text-color);
 }
-/* .portfolio-wrap {
-     text-align: start; 
-} */
+.portfolio-wrap {
+     border: 1px solid #e7e9fc; 
+     border-top: none;
+}
 
 .portfolio-list{
      column-gap:24px;
@@ -321,9 +322,9 @@ body {
 }
 
 .app-portf {
-     border-top: none; 
-     padding: 32px 16px; 
      border: 1px solid #e7e9fc; 
+     border-top: none;
+     padding: 32px 16px; 
 }
 
                                                   /*SECTION FOOTER*/
